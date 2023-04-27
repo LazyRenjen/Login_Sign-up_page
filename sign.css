@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=612x612&w=0&k=20&c=lJiYScAyV7Iqn5FKdxMYCuntLO0ljQkR_oEftweNjmE=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container{
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    color: red;
+}
+
+a{
+    color: red;
+}
+
+h1{
+    margin-top: 50px;
+    height: 80px;
+}
+
+.box{
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+}
+
+.First{
+    height: 40px;
+    width: 48%;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 10px;
+}
+.Last{
+    width: 48%;
+    height: 40px;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+
+.box2{
+    height: 50px;
+    display: flex;
+    width: 50%;
+}
+
+.email{
+    width:100%;
+    height: 40px;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.box3{
+    height: 15vh;
+    width: 50%;
+}
+section{
+    height: 7.5vh;
+}
+
+.Password{
+    width:100%;
+    height: 45px;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.check{
+    height: 40px;
+}
+
+.button{
+    height: 40px;
+    width: 10rem;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 2rem;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background-color: rgb(45, 158, 203);
+    border: solid 1px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .box{
+        height: 50px;
+        justify-content: space-between;
+        display: flex;
+        width: 90%;
+    }
+
+    .box2{
+        height: 50px;
+        display: flex;
+        width: 90%;
+    }
+
+    .box3{
+        height: 12vh;
+        width: 90%;
+        line-height: 1px;
+    }
+
+    section{
+        height: 5.5vh;
+    }
+
+    .check{
+        height: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    h1{
+        font-size: 25px;
+        height: 60px;
+    }
+
+    .box{
+        height: 50px;
+        justify-content: space-between;
+        display: flex;
+        width: 15rem;
+    }
+
+    .box2{
+        height: 50px;
+        display: flex;
+        width: 15rem;
+    }
+
+    .box3{
+        height: 15vh;
+        width: 15rem;;
+    }
+
+    section{
+        height: 7.5vh;
+    }
+
+    .check{
+        height: 35px;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 14px;  
+    }
+
+    #container{
+        width: 60%;
+    }
+
+}
+

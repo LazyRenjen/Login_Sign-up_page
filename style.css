@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=612x612&w=0&k=20&c=lJiYScAyV7Iqn5FKdxMYCuntLO0ljQkR_oEftweNjmE=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 30px;
+    height: 115px;
+    font-size: 30px;
+}
+
+p{
+    color: aliceblue;
+}
+
+a{
+    color: red;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    width: 30%;
+}
+
+.box{
+    height: 55px;
+}
+
+#i{
+    position:relative;
+    right: 35px;
+}
+
+.Username{
+    height: 40px;
+    width: 55%;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 25px;
+}
+
+.Password{
+    height: 40px;   
+    width: 55%;
+    border-radius: 2rem;
+    border: red solid 2px;
+    font-size: medium;
+    padding-left: 25px;
+}
+
+.check{
+    color: aliceblue;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    padding-left: 95px;
+}
+
+.button{
+    height: 45px;
+    width: 15rem;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background-color: rgb(45, 158, 203);
+    border: solid 1px;
+}
+
+.icons{
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#fb:hover{
+    color: rgb(0, 98, 255);
+}
+
+#ig:hover{
+    color: rgb(254, 9, 1);
+}
+
+#ld:hover{
+    color: rgb(1, 187, 254);
+}
+
